@@ -4,6 +4,7 @@ def countdown(starting_number)
   number = starting_number
   while number > 0
     puts "#{number}"
+    number-=1
   end
   "HAPPY NEW YEAR!"
 end
